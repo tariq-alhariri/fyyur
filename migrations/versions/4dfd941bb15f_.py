@@ -56,6 +56,7 @@ def upgrade():
     sa.ForeignKeyConstraint(['venue_id'], ['Venue.id'], ),
     sa.PrimaryKeyConstraint('id')
     )
+    
     # ### end Alembic commands ###
 
 
